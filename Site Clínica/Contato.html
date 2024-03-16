@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="Pagina_Inicial.html">Página Principal</a></li>
+                <li><a href="About.html">Sobre a Clínica</a></li>
+                <li><a href="Horário de Atendimento.html">Horários de Atendimento</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                
+                <!-- Aqui vai o seu header -->
+                
+                <img id="Home" src="Contato.png" alt="">
+                <h3>Contato</h3>
+            </div>
+            
+            <div class="content">
+                <strong>Agende Sua Consulta na Clínica Cardíaca Vitalis!</strong>
+
+                <p>Estamos ansiosos para ajudá-lo a cuidar da sua saúde cardiovascular na Clínica Cardíaca Vitalis.
+                     Agende sua consulta agora mesmo preenchendo o formulário abaixo. Nossa equipe entrará em contato com você o mais breve possível para confirmar a data e hora da sua consulta.</p>
+                
+                    <fieldset>
+                     <form action="" method="post">
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nome" name="nome" required><br><br>
+                    
+                        <label for="telefone">Telefone:</label><br>
+                        <input type="tel" id="telefone" name="telefone" required><br><br>
+                    
+                        <label for="email">E-mail:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+                    
+                        <label for="data_consulta">Data de Preferência para a Consulta:</label><br>
+                        <input type="date" id="data_consulta" name="data_consulta" required><br><br>
+                    
+                        <label for="horario_consulta">Horário de Preferência para a Consulta:</label><br>
+                        <input type="time" id="horario_consulta" name="horario_consulta" required><br><br>
+                    
+                        <label for="comentarios">Comentários ou Perguntas Adicionais:</label><br>
+                        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+                    
+                        <input type="submit" value="Enviar">
+                    </form>
+                    </fieldset>
+            </div>
+    
+            <div class="footer">
+                
+                <!-- Aqui vai o seu rodapé -->
+                <strong>Contato</strong>
+                <p>Telefone: (XX) XXXX-XXXX
+                    E-mail: contato@clinicavitalis.com</p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
