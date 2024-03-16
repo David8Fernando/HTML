@@ -1,4 +1,4 @@
-# Site para Clinica Cardíaca
+# Site para Clínica Cardíaca
 
 Este repositório contém uma página web para a Clínica Cardíaca Vitalis, desenvolvida com HTML e CSS, com o objetivo de apresentar informações sobre os serviços oferecidos e facilitar o agendamento de consultas para os pacientes.
 
